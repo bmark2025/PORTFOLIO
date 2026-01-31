@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Bii | Skills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="Toggle dark mode">
+
+  <div class="site">
+
+  <header>
+    <h1>Mark Bii</h1>
+    <p>HTML & CSS Developer</p>
+    <label for="theme-toggle" class="theme-toggle-label" title="Toggle theme" aria-hidden="true"></label>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section id="skills">
+      <h2>My Skills</h2>
+      <p style="margin-bottom: 2rem; color: #666;">Click on any category to expand and explore my expertise.</p>
+
+      <div class="accordion">
+        <input type="checkbox" id="accordion1" class="accordion-input">
+        <label for="accordion1" class="accordion-label">Core Technologies</label>
+        <div class="accordion-content">
+          <div style="padding: 1.5rem;">
+            <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; padding: 0;">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Responsive Design</li>
+              <li>Flexbox & Grid</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <input type="checkbox" id="accordion2" class="accordion-input">
+        <label for="accordion2" class="accordion-label">Specialized Skills</label>
+        <div class="accordion-content">
+          <div style="padding: 1.5rem;">
+            <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; padding: 0;">
+              <li>Mobile-First Design</li>
+              <li>Cross-browser Compatibility</li>
+              <li>Semantic HTML</li>
+              <li>CSS Animations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <input type="checkbox" id="accordion3" class="accordion-input">
+        <label for="accordion3" class="accordion-label">Design & UX</label>
+        <div class="accordion-content">
+          <div style="padding: 1.5rem;">
+            <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; padding: 0;">
+              <li>User Interface Design</li>
+              <li>Accessibility (WCAG)</li>
+              <li>Web Performance</li>
+              <li>Design Systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <input type="checkbox" id="accordion4" class="accordion-input">
+        <label for="accordion4" class="accordion-label">Tools & Platforms</label>
+        <div class="accordion-content">
+          <div style="padding: 1.5rem;">
+            <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; padding: 0;">
+              <li>VS Code</li>
+              <li>Git & GitHub</li>
+              <li>Figma</li>
+              <li>Browser DevTools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Mark Bii</p>
+  </footer>
+
+  </div>
+
+</body>
+</html>
